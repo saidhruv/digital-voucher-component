@@ -1,0 +1,133 @@
+/** @format */
+
+@font-face {
+  font-family: 'CustomText';
+  src: url('./assets/fonts/AvenirNext.otf');
+}
+
+.App {
+  padding: 40px;
+  position: relative;
+  height: 350px;
+  width: 200px;
+  background-color: #fdfdfd;
+  background-image: url('./assets/images/base.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'CustomText';
+  font-weight: 400;
+  color: gray;
+}
+
+.Parent {
+  /* position: absolute; */
+}
+
+.TopContent {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #f0f0f0;
+  width: 100%;
+  height: 35px;
+}
+
+.Emoji {
+  height: 15px;
+  align-self: baseline;
+  margin-right: 5px;
+}
+
+.TopText {
+  margin-right: 5px;
+}
+
+.Question {
+  filter: invert(50%);
+}
+
+.MiddleContent {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.From {
+  color: #dadada;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.PriceTag {
+  color: black;
+  font-family: 'CustomText';
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.Dropdown {
+  margin-top: 18px;
+  border: #eeeeee solid 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.DropdownPlaceholder {
+  padding: 12px 10px 12px 10px;
+  width: 100%;
+  font-weight: 600;
+  color: black;
+  align-items: center;
+  font-size: 12px;
+}
+
+.TriangleContainer {
+  background-color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DropdownTriangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+}
+
+.Button {
+  background: rgb(252, 95, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 95, 126, 1) 0%,
+    rgba(236, 35, 72, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin-top: 21px;
+}
+
+.ButtonText {
+  margin-top: 3px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.BottomContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 81px;
+}
+
+.BottomText {
+  color: #f1d1a9;
+  font-weight: 600;
+  font-size: 12px;
+}
